@@ -849,7 +849,7 @@ main {
   background: var(--jet);
 }
 
-.timeline-item::after {
+/* .timeline-item::after {
   content: "";
   position: absolute;
   top: 5px;
@@ -859,6 +859,30 @@ main {
   background: var(--text-gradient-yellow);
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
+} */
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10px;
+  left: -30px; /* переопределяется в @media (min-width: 580px) */
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: var(--text-gradient-yellow);
+  box-shadow: 0 0 0 4px var(--jet);
+}
+
+/* иконка компании вместо точки при наличии атрибута */
+.timeline-item[style*="--item-icon-url"]::after {
+  height: 40px;
+  width: 40px;
+  border-radius: 25%;               /* делает форму круглой */
+  background-color: var(--jet);     /* подложка под иконку, если PNG с прозрачностью */
+  background-image: var(--item-icon-url);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .timeline-text, .timeline-ul-tasks, .timeline-ul-achievements, .timeline-ol {
@@ -1567,9 +1591,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-item:not(:last-child)::before { left: -40px; }
 
   .timeline-item::after {
-    height: 8px;
+    /* height: 8px;
     width: 8px;
-    left: -43px;
+    left: -43px; */
+    left: -39.5px;
   }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }

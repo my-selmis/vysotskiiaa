@@ -212,7 +212,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 // Автоматический рассчёт времени
 
 const allOtherWorkExperience = 2;
-const VIRGroupStart = new Date('2024-01-15');
+const experienceDateStart = new Date('2024-01-15');
 const currentDate = new Date();
 
 function getFullMonthDifference(startDate, endDate) {
@@ -246,7 +246,7 @@ function getFormattedDuration(totalMonths) {
 
 // Обновляем отображение опыта на странице
 function updateWorkExperience() {
-  const monthDifference = getFullMonthDifference(VIRGroupStart, currentDate);
+  const monthDifference = getFullMonthDifference(experienceDateStart, currentDate);
   const fullWorkExperience = allOtherWorkExperience + monthDifference;
   document.getElementById('fullWorkExperience').textContent = getFormattedDuration(fullWorkExperience);
 }

@@ -57,14 +57,51 @@
   "work_achievements": "Achievements / highlights:",
   "work_projects": "Projects:",
 
+
+
+"work_aegate": "Aetherium Gate, Game Designer",
+  "work_aegate_date": "May 2025 — present",
+  "work_aegate_text": "A small private game studio and startup. Currently working as the main Game Designer on an unannounced mobile Action RPG (midcore).",
+  "work_aegate_results": [
+    "My current contributions:",
+    "conducted competitive analysis and defined the project's market positioning",
+    "defined the game's value proposition and target audience",
+    "developed the game vision based on management requirements and defined the project's scope",
+    "wrote product gd-documentation: vision, feature list, and roadmap",
+    "wrote technical and conceptual gd-documentation",
+    "designed core and meta systems, balanced them",
+    "designed levels and abilities in Unity, configured enemies",
+    "conducted multiple playtests and used the results to improve the game and its balance",
+    "established a feature ownership process for task planning and review within the team"
+],
+
+
+
+
   "work_vir": "VIR Group, Game Designer",
-  "work_vir_date": "January 2024 — present",
-  "work_vir_text": "Commercial web-game development in a small studio.",
+  "work_vir_date": "January 2024 — November 2025",
+  "work_vir_text": "A small commercial web and mobile game development studio. As the main Game Designer, I led and shipped three projects at the studio.",
+  "work_vir_results": [
+    "My key contributions:",
+    "analyzed the market and defined the market positioning for 2 projects",
+    "developed the complete game vision for 2 projects",
+    "developed the game vision for 1 project based on management requirements",
+    "wrote technical gd-documentation for 3 projects",
+    "designed gameplay mechanics for 3 projects and configured them in Unity",
+    "balanced all 3 projects (fairly well)",
+    "developed the UX and designed UI wireframes for 2 projects",
+    "built an extensive internal library of meta-systems for internal use",
+    "established a feature ownership process for task planning and review within the team"
+  ],
+
+
   "work_vir_responsibilities_1": "Presenting new projects and analysis results",
   "work_vir_responsibilities_2": "Defining a common vision for the game with the studio owners",
   "work_vir_achievements_1":"Organised the team's workflow from scratch using a kanban system",
   "work_vir_achievements_2":"Compiled a large library of meta-systems in casual mobile and browser games",
   "work_vir_achievements_3":"All games have passed moderation on the CrazyGames platform",
+
+
   "work_pp": "Personal project",
   "work_pp2_date": "December 2023",
   "work_pp2_text": "Development and refinement of a game prototype with a friend.",
