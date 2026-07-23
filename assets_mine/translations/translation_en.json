@@ -19,6 +19,22 @@
   "about_text_2": "I'm into psychology as I love exploring player behaviour or effective learning techniques. To add to that, I follow industry research, such as Quantic Foundry's \"Player Motivations\".",
   "about_text_3": "Also, I have worked on games in unconventional genres, namely \"puzzle-runner\" and \"action-typer\".",
 
+  "about_text2_1": "I just love games! I have extensive gaming experience across all major platforms and in most genres, from casual to hardcore. I highly value player feedback. I care about healthy team relationships, know how to resolve conflicts and find common ground. I base my reasoning on constructive arguments and can communicate my ideas clearly. I respect and practice a systematic approach to design and development (and life as well). My credo is: \"lead with wonder, shape with reason.\" Skill-wise, I'm a generalist and can also take on the role of a Product Manager.",
+  "about_text2_2": [
+    "My core competencies:",
+    "analyzing the market: competitors' strengths and weaknesses, audience needs",
+    "defining and refining a game's market positioning",
+    "creating and maintaining the game's vision",
+    "designing core and meta gameplay mechanics, as well as scalable game systems",
+    "writing documentation: from technical specifications to product documentation (feature lists, roadmaps)",
+    "designing UX and creating UI wireframes",
+    "owning features (feature ownership): setting and reviewing tasks",
+    "balancing gameplay (both mathematically and by feel)",
+    "working in Unity: configuring (almost) any part of a project",
+    "analyzing product metrics and proposing data-driven improvement hypotheses",
+    "analyzing games from fun and UX perspectives, proposing improvement hypotheses"
+  ],
+
   "tools_category": "My tools",
   "aoe_category": "My areas of expertise",
   "aoe_analytics": "Analytics",

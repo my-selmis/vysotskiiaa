@@ -525,13 +525,23 @@ main {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+/* .about-text p { margin-bottom: 15px; } */
 
 .about-text a {
   color:hsl(12, 54%, 58%);
   font-style:italic;
   text-decoration: underline;
 }
+
+.about-text li::before {
+  margin-right: 0.4em; /* Отступ между точкой и текстом */
+  color: var(--light-gray-70); /* Цвет точки */
+}
+
+.about-text li::before {
+  content: "—"; /* Большая точка перед каждым элементом списка */
+}
+
 
 
 
